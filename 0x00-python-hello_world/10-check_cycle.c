@@ -1,10 +1,3 @@
-#!/usr/bin/python3
-import this
-
-==================
-
-10-check_cycle.c
-
 #include "lists.h"
 
 /**

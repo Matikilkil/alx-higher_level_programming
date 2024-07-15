@@ -6,8 +6,7 @@ Module - Square
 
 class Square:
     """
-    Defines square with a private instance attribute size, size validation,
-    area calculation, getter and setter for size, and method to print the square.
+    Defines properties of a square.
     """
 
     def __init__(self, size=0):

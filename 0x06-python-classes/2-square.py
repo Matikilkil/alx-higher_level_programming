@@ -6,7 +6,8 @@ Module - Square
 
 class Square:
     """
-    Defines a square with a private instance attribute size and size validation.
+    Defines a square with a private instance attribute size and size
+    validation.
     """
     def __init__(self, size=0):
         """
@@ -20,7 +21,7 @@ class Square:
             ValueError: If size is less than 0.
 
         Attributes:
-            __size (int): Private attribute storing the size of the square.
+            __size (int): Private attribute storing size of the square.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
